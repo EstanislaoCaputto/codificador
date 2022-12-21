@@ -37,7 +37,7 @@ const decodificado = {
     'ufat': 'u'
 }
 
-
+let botonCopiador = document.getElementById('copiado')
 let imagenMunheco = document.getElementById('munheco')
 let textoCapturado = document.getElementById('texto')
 let textoResultado = document.getElementById('resultado')
@@ -53,7 +53,7 @@ function encriptar() {
     let miResultado = encriptado.join('');
     imagenMunheco.style = 'display:none'
     textoResultado.textContent = miResultado
-    miResultado = ''
+    botonCopiador.style = 'display:inline'
     
 
 }
@@ -75,7 +75,7 @@ function desencriptar(){
     imagenMunheco.style = 'display:none'
     let miResultado = desencriptado.join('')
     textoResultado.textContent = miResultado
-    miResultado = ''
+    botonCopiador.style = 'display:inline'
     
 }
 

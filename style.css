@@ -97,7 +97,7 @@ body{
 }
 
 .copiado{
-    display: inline;
+    display: none;
     width: 80%;
 }
 

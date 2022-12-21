@@ -17,6 +17,7 @@
     <div class="pizarra">
         <div class="areaEncriptado">
             <textarea placeholder="¡Ingrese el texto aqui!" name="texto" cols="40" rows="10" id="texto" class="textoResolver"></textarea>
+            <label for="texto"><img src="./imagenes/exclamation.png" alt="haciendomoco" width="10"/> Solo minúsculas y sin ascentos</label>
             <div class="botones">
                 <button class="miBoton enc" onclick=encriptar()>Encriptar</button>
                 <button class="miBoton" onclick=desencriptar()>Desencriptar</button>
@@ -27,7 +28,7 @@
                 <img src="./imagenes/Muñeco.png" alt="munheco" id="munheco"/>
             </div>
             <textarea cols="40" rows="4" id="resultado" name="texto" class="textoResultado" placeholder="¡Aún no ingresaste nada!"></textarea>
-            <button class="miBoton copiado" onclick=copiar()>Copiar</button>
+            <button id="copiado" class="miBoton copiado" onclick=copiar()>Copiar</button>
         </div>
     </div>
     
