@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #D8DFE8;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-top: 5px;
+}
+.titulo{
+    font-size: 60px;
+    color: #0A3871;
+}
+
+.subtitulo{
+    font-size: 35px;
+    color: #0A3871;
+    margin-bottom: 10px;
+}
+
+.pizarra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding: 5px;
+    margin: 15px 5px;
+}
+.areaEncriptado{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.textoResolver {
+    background-color: #D8DFE8;
+    border: 0;
+    color: #0A3871;
+    padding: 5px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.miBoton {
+    border-radius: 1.5rem;
+    height: 50px;
+    min-width: 40%;
+    color: #0A3871;
+    border: 1px #0A3871 solid;
+}
+.enc {
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+.resultado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+    padding-top: 15px;
+    height: 400px;
+    width: 300px;
+}
+
+.textoResultado {
+    width: 90%;
+    border: none;
+    text-align: center;
+}
+
+.imagenResultado img{
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+}
+
+.copiado{
+    display: inline;
+    width: 80%;
+}
+
+
+/*---------------------- Adaptación a dispositivos móviles ----------------*/
+@media screen and (max-width: 480px) {
+    .pizarra{
+        flex-direction: column;
+    }
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        height: 150px;
+    }
+    .areaEncriptado{
+        align-items: center;
+    }
+    .miBoton{
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .resultado{
+        height: min-content;
+    }
+    .imagenResultado{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .pizarra{
+        flex-direction: column;
+    }
+    .areaEncriptado{
+        width: 90%;
+    }
+    .resultado{
+        width: 90%;
+    }
+    
+}
