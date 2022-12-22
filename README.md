@@ -10,4 +10,4 @@ Para utilizar este código, sigue estos pasos:
 
 **Nota: Si intentas desencriptar un texto que no ha sido encriptado con este código, el resultado no será el esperado.**
 
-Puedes utilizarlo ingresando en la web: [Encriptador](https://estanislaocaputto.github.io/codificador.github.io/ "Encriptador")
+Puedes utilizarlo ingresando en la web: [Encriptador](https://estanislaocaputto.github.io/codificador/ "Encriptador")
