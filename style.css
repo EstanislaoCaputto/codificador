@@ -14,14 +14,12 @@ body{
 
 .logo{
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 90%;
-    margin-top: 5px;
+    align-self: flex-start;
 }
 .titulo{
     font-size: 60px;
     color: #0A3871;
+    margin-top: -10px;
 }
 
 .subtitulo{
